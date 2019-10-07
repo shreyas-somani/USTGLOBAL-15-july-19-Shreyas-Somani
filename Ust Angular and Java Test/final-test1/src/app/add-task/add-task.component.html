@@ -1,0 +1,16 @@
+ 
+ <div class="mx-5 my-5 col-sm-5 col-sm-offset-2 ">
+<div class="card" style="width: 18rem;">
+    <form action="" method="POST" role="form" #add ='ngForm' (ngSubmit)='addTask(add.value)'>
+        <legend>Add New Task</legend>
+    
+        <div class="form-group">
+            <label for="task">Task</label>
+            <input type="text" class="form-control"  name="task" #task='ngModel' ngModel required minlength="4" >
+        </div>
+    
+       <button type="submit" class="btn btn-primary" [disabled]='add.invalid'>ADD Task</button>
+      
+    </form>       
+  </div>
+</div>

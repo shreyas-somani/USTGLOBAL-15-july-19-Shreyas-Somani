@@ -1,0 +1,26 @@
+<div class="container">
+    
+        <div class="col-md-6 offset-md-3 mt-4 card card-body">
+    
+            
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Delete</th>
+                        <th>Complete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let ta of task.taskInfo'>
+                        <td>{{ta.task}}</td>
+                        <td><button type="button" class="btn btn-outline-danger" (click)='delete(ta.id)'>Delete</button></td>
+                        <td><button type="button" class="btn btn-outline-primary" (click)='updateTask(ta)'>Complete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+    
+        </div>
+    
+    </div>
