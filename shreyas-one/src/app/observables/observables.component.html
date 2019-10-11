@@ -1,0 +1,17 @@
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <td>Index</td>
+            <td>Name</td>
+            <td>Company</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userService">
+            <td>{{user+1}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.company}}</td>
+
+        </tr>
+    </tbody>
+</table>
