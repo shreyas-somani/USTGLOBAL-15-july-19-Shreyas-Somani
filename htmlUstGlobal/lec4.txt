@@ -1,0 +1,59 @@
+html 5 onwards html file is embedded with javascript(minimal js functionality)
+ 
+novalidate attribute disables  the embedded js with html, hence it will not validate email even if type is mail
+
+e is expinential numberc in html,   <input type="number" id="username" name="username" >
+using min and max we ccan control the value of input
+
+text, text area, radio button-html4
+
+email,number-html5
+
+radio-at a time one button
+we can select both radio buttons, so to make it conditional name attribute
+for multiple answers use checkbox
+
+dropdown list/select list--it is an independent element
+A select element represents a control for selecting amongst a set of options
+
+
+Articl name selected in select statement for making it default selection
+
+
+for making multiple default selection: use multiple in select statement--- it is a html 5 attribute
+
+uploading is also html 4
+range is also html file
+input type=search is also html
+url is alsio html file-html5
+input type=date is html5
+
+use of hidden- make it hidden ,through javascript make it visible
+hidden dont have vallue,it has only attribute name			//Document object model in js
+
+use of template tag- same as hidden
+hidden is attribute
+template is  element
+rest same as hidden			//make it hidden, through javascript make it visible
+
+reset:reset  the form-html 4
+
+"tel" dont implement as it is only supporteed by safari browser, not supported by chrome and firefox
+
+
+fieldset eelement represents a set of form controls optionally grouped under a common name
+use legennd in fieldset, is used as a legend element which represents qa caption for the rest of the contents of the legend element's parent fieldset element, if any
+
+how to validate min and max length- minlength and maxlength
+
+
+if we use username:<input......
+it it will not connect to text box, so we use label also seo purpose
+
+
+place holder is a reference text
+value is predefined-doesnt give error when entered value
+
+if disabled-disabled attribute meaning the text cannot be edited
+reger101.com
+icomb/pus

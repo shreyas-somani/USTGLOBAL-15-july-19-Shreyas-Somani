@@ -1,0 +1,26 @@
+2em=24 pixel
+for heading purpuse we can used hedding tags
+h1 to h6
+where h1 is most important n h6 is least
+lorem epsum is a dummy test, if content is not provided
+p element represents a paragraph
+
+
+Lorem Ipsum
+plagging
+loren1 gives 1 word
+loren2 gives 2 words
+
+
+html is not case sensitive, markup lang
+html is maintained by w3c- world wide web constromium
+
+img tag
+ending tag is not there,it is also called empty tag,meaning we dont add content
+
+url- uniform resource locator
+path incorrect means nothing will print
+
+src means source which is an attributr
+
+with src use alt,if path is incorrect render alternative text

@@ -1,0 +1,57 @@
+CONSTANT TAGS-TAGS WHICH ARE COMMON IN ALL HTML DOCUMENTS
+FIXED TAGS-PAIRED TAGS
+INDEPENDENT TAGS-UNPAIRED TAGS
+
+
+Start of html file:- <!DOCTYPE html>-gives idea about html version
+Version used:--Html 5, CSS 3, JS[ECMASCnpc]
+
+always write link tag within head tag
+link is used to connect .html to.css
+
+nesting of list
+<ul>
+	<li>
+		<ol>
+			<li> java
+		</ol>
+	</li>
+</ul>
+
+text formattfing tags:
+<mark>-mark tag i9s used for hilighting
+<u>- u tag is used for hilighting
+<b>/<strong> tag to make bold....more priority is given to b tag and then to strong tag
+<i>/<em>-italiocs
+<del>/<strike>-delete
+<sup>-superscript-------for printing 10^th write :   10<sup>th</sup>
+<sub>--subscript--------forv printing 10 to thev base 10:    10<sub>th</sub>
+
+
+    
+
+new features in html5:
+
+uppercase tag names
+quotes are optional for attributes
+attribute values are optional
+closing of empty elements are optional
+
+
+new features on html file:
+geolocation
+microdata
+drag and drop
+new semantic elements
+audio video  tag
+canvas
+server-sent events
+webSocket
+Persistant local storage
+forms 2.0
+
+new html elements:
+most interesting new HTML5s elements are:
+New semantic elements like <header> ,<footer>, <article>,<section>
+New attributes for form elements like date ,time,number, calender and range
+New graphic elements:<svg> scalable vector graphics and <canvas>

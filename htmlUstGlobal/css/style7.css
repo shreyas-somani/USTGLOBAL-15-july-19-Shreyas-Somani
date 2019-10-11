@@ -1,0 +1,82 @@
+
+#name1{
+    color:gold;
+    margin:0px 0px 0px 150px;
+ 
+    }
+ #password1{
+        color:gold;
+        margin:0px 0px 0px 150px;
+    }
+#email11{
+        color:gold;
+        margin:0px 0px 0px 150px;
+    }
+#phone1{
+        color:gold;
+        margin:0px 0px 0px 150px;
+    }
+#gender1{
+        color:gold;
+
+    }
+    #gender2{
+        color:gold;
+        margin:0px 0px 0px 50px;
+    }
+    #Agree1{
+        color:gold;
+        margin:0px 0px 10px 180px;
+
+    }
+    #name{
+     border-radius: 30%;
+     text-align:center;
+     margin:0px 0px 0px 150px;
+        }
+     #password{
+        border-radius: 30%;
+        text-align:center;
+        margin:0px 0px 0px 150px;
+        }
+    #email1{
+        border-radius: 30%;
+        text-align:center;
+        margin:0px 0px 0px 150px;
+        }
+    #phone{
+        border-radius: 30%;
+        text-align:center;
+        margin:0px 0px 0px 150px;
+        }
+
+fieldset{
+        background-color:purple;
+
+        border-radius:30%;
+        margin:0px;
+        font-family: 'Times New Roman', Times, serif;
+        width:100%;
+        border-color: gold;
+        border-style: solid ;
+        border-width: 10px;
+        font-weight: bold;
+        font-size: 30px
+
+        
+}
+form{
+    padding:250px 500px;
+}
+
+body{
+    margin:0px;
+}
+h1{
+    color:gold;
+    text-align:center;
+}
+button{
+    margin:0px 0px 0px 185px;
+}
+    

@@ -1,0 +1,12 @@
+th{
+    border-style: solid;
+    border-radius: 30%;
+    align-self: auto;
+    background: red;
+}
+td{
+    border-style: solid;
+    border-radius: 30%;
+    align-self: auto;
+    background:yellow;
+}

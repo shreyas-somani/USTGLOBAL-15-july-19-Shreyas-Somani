@@ -1,0 +1,8 @@
+.col-xs-4{
+    background-color:red;
+    border-style:solid;
+    font-weight: bold;
+}
+body{
+    background: red;
+}
