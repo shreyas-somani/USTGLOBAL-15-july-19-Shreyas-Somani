@@ -1,0 +1,13 @@
+<div class="col-md-4 offset-md-4 card card-body mt-5">
+    <input type="text" [(ngModel)]='dataFromInput' class='form-control' (keyup)='buttonEvent(dataFromInput)'>
+</div>
+<h1 class="text-center">{{dataFromInput}}</h1>
+<img src="{{dataFromInput}}" alt="">
+<button class='btn btn-primary' onclick="alert('how are you')">Give Alert</button>
+<button class='btn btn-primary' >Give Alert</button>
+<!-- in angular event bindig we need not use on click -->
+
+
+<h1 class="text-center" [style.background]='backgroundColor'>hello world</h1>
+<!-- <button class='btn btn-primary' (click)='changeColor()'>ChangeColor</button> -->
+<button class='btn btn-primary' (click)='changeColor(dataFromInput)'>ChangeColor</button>

@@ -1,0 +1,47 @@
+<h1 [class]="textClasses">
+   {{name}}
+</h1>
+<h1 [class.bg-danger]="redColor" [class.bg-success]="!redColor">{{5+5}}</h1><!--drawback here is we can have a class at a time-->
+<img [src]="imgURL" alt=""><!-----property binding>
+    <!-we can use sting interpolation also---><img src="{{imgURL}}" alt="">
+
+<!--<img [src]="{{imgURL}}" alt="">this will render template pass error-->
+<!--we should not use property binding and string interpolation at a time-->
+
+
+
+
+<!--even in class binding we use property binding -->
+
+<p [style.background]="paragraphStyles">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit pariatur, accusantium consectetur illo ipsum laboriosam debitis nostrum corporis perferendis, ipsam commodi magnam sequi eligendi obcaecati ducimus? Voluptatum neque earum quam!</p>
+<!--here also we can apply only one property-->
+<p [style.background]="prasS ? 'red' :'blue'" [style.padding]='padding' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit pariatur, accusantium consectetur illo ipsum laboriosam debitis nostrum corporis perferendis, ipsam commodi magnam sequi eligendi obcaecati ducimus? Voluptatum neque earum quam!</p>
+
+
+<!--attribute binding-->
+<table class="table table-bordered my-5">
+    <thead>
+        <tr>
+            <th [attr.colspan]='columnSpan'>
+                Student
+            </th>
+
+        </tr>
+        
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Swdafe</td>
+        </tr>
+        <tr>
+                <td>2</td>
+                <td>hdaCAF</td>
+            </tr>
+            <tr>
+                    <td>2</td>
+                    <td>rcVsze</td>
+                </tr>
+    </tbody>
+</table>
+
