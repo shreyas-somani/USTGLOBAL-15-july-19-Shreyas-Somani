@@ -1,0 +1,26 @@
+<!-- <div class="col-md-4 offset-md-4 mt-4">
+   <h3 class="text-center">Add User!!!</h3>
+        <form #userForm='ngForm' (ngSubmit)='postUser(userForm)' action="" class="form-Group">
+            <input type="text" name="name" class="form-control mb-3 mt-3" id=""  #name='ngModel' ngModel placeholder="Enter Name...." required minlength="3">
+            
+            <input type="email" name="email" class="form-control mb-3" id="" #email='ngModel' ngModel  placeholder="Enter Email...." required email>
+            <input type="tel" name="phno" #phno='ngModel' ngModel placeholder="Enter Mobile Number...."id="" class="form-control mb-3" required minlength="10">
+            <button type="submit" class="btn btn-outline-success float-right" [disabled]='userForm.invalid'>Submit</button>
+            
+        </form>
+    
+</div> -->
+
+<div class="col-md-4 offset-md-4 mt-4">
+        <h3 class="text-center">Add User!!!</h3>
+             <form #userForm='ngForm' (ngSubmit)='postUser(userForm)' action="" class="form-Group">
+                 <input type="hidden" name="id"[(ngModel)]='firebaseService.selectedUser.id' #id='ngModel' >
+                 <input type="text" name="name" [(ngModel)]='firebaseService.selectedUser.name' class="form-control mb-3 mt-3" id="name"  #name='ngModel' ngModel placeholder="Enter Name...." required minlength="3">
+                 
+                 <input type="email" name="email"  [(ngModel)]='firebaseService.selectedUser.email' class="form-control mb-3" id="email" #email='ngModel' ngModel  placeholder="Enter Email...." required email>
+                 <input [(ngModel)]='firebaseService.selectedUser.phno' class="form-control mb-3"type="tel" name="phno" #phno='ngModel' ngModel placeholder="Enter Mobile Number...."id="" class="form-control mb-3" required minlength="10">
+                 <button type="submit" class="btn btn-outline-success float-right" [disabled]='userForm.invalid'>Submit</button>
+                 
+             </form>
+         
+     </div>
